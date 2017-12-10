@@ -1,0 +1,47 @@
+body {
+    background: #cccccc ;
+}
+
+.tagContainer {
+    width: 80%;
+    max-width: 800px;
+    min-width: 500px;
+    margin: 50px auto;
+}
+
+.columns {
+    -webkit-column-count: 3;
+    -webkit-column-gap: 10px;
+    -webkit-column-fill: auto;
+    -moz-column-count: 3;
+    -moz-column-gap: 10px;
+    -moz-column-fill: auto;
+    column-count: 3;
+    column-gap: 5px;
+    column-fill: auto;
+}
+
+.tag {
+    display: inline-block;
+    margin: 0 2px;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    column-break-inside: avoid;
+    padding: 15px;
+    padding-bottom: 5px;
+    opacity: 1;
+
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.tag .tagImage {
+    width: 100%;
+}
+
+.columns:hover .tag:hover {
+    opacity: 0.6;
+}
+
