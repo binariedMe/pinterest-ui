@@ -13,6 +13,7 @@ Install :
 npm i
 ```
 5. Now navigate to server directory of project.
+>cd server
 6. Run the following command : 
 ```bash
 node app
